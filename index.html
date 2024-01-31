@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sum of No Quiz</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/94898838fd.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="sm:flex justify-center items-center">
+    <div
+      class="bg-container bg-white w-screen h-screen font-sans flex-col justify-center items-center sm:w-[50%] lg:w-[30%]"
+    >
+      <img
+        src="https://play-lh.googleusercontent.com/mjzs_gwDoWTSkgSOev1jfvZi0b1Y2UyDSXh7fJ17ccFo3mMmshRmBLQz1LFCnC5WFEPG=w240-h480"
+        alt=""
+        class="bg-white w-[100%] h-[40%]"
+      />
+      <main
+        class="bg-gray-200 w-[100%] h-[45%] p-5 flex-col justify-between text-center"
+      >
+        <div
+          class="numb-container w-[100%] h-[25%] flex justify-between items-center mt-12"
+        >
+          <input
+            aria-label="box-1"
+            class="box-1 bg-gray-400 w-20 h-[80%] rounded-lg text-3xl p-2 font-bold text-center"
+          />
+          <i
+            class="fa fa-plus text-[30px] text-gray-400"
+            aria-hidden="true"
+          ></i>
+          <input
+            aria-label="box-2"
+            class="box-2 bg-gray-400 w-20 h-[80%] rounded-lg text-3xl p-2 font-bold text-center"
+          />
+          <i class="fas fa-equals fa-2x text-gray-400"></i>
+          <input
+            aria-label="box-3"
+            class="box-3 bg-gray-400 w-28 h-[80%] rounded-lg text-2xl p-3 font-bold text-center"
+          />
+        </div>
+        <div class="btn-container mt-10 h-[20%]">
+          <button class="btn1 bg-blue-500 p-3 rounded-md mr-3 text-white">
+            Check
+          </button>
+          <button class="btn2 bg-blue-500 p-3 rounded-md text-white">
+            Restart
+          </button>
+        </div>
+        <div
+          class="warning w-[100%] h-[20%] mt-3 text-center p-2 flex justify-center items-center"
+        >
+          <h3
+            class="text-white w-[100%] h-[100%] font-bold text-2xl text-center"
+          ></h3>
+        </div>
+      </main>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
